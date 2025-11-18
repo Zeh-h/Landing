@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ETEC Coronel Raphael Brandão – Unidade 108 – Barretos SP</title>
+  <meta name="description" content="Página institucional da ETEC Coronel Raphael Brandão Unidade 108 Barretos SP" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="img/Logo etec.png" alt="Logo ETEC Barretos" class="logo-small me-2" />
+        <span class="fw-bold">ETEC Coronel Raphael Brandão</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero pt-5">
+    <div class="container" id="main">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-6 fw-bold">ETEC Coronel Raphael Brandão – Unidade 108 – Barretos SP</h1>
+          <p class="lead text-muted">Formando profissionais para o futuro com qualidade técnica e cidadania.</p>
+          <p>
+            <a class="btn btn-light btn-cta me-2" href="https://vestibulinho.etec.sp.gov.br/home/" target="_blank">Vestibulinho </a>
+          </p>
+        </div>
+
+        <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+          <img src="img/Centro-Paula-Souza-CPS.webp" alt="Centro Paula Souza" class="logo-small me-2" />
+          <img src="img/governo-do-estado-sao-paulo-logo.webp" alt="Governo do Estado de São Paulo" class="logo-small" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+ 
+     <section id="sobre" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="h4 fw-bold mb-3">Sobre a ETEC</h2>
+        <p class="text-muted">A ETEC Coronel Raphael Brandão Unidade 108 em Barretos oferece formação técnica de qualidade, integrando teoria e prática para preparar estudantes para o mercado de trabalho e para a cidadania.</p>
+        <p class="text-muted">Missão: Proporcionar à sociedade um ensino púbico de qualidade, formando cidadãos com amplos conhecimentos humanísticos, científicos e tecnológicos , que potencialize suas competências pessoais e profissionais mediante os desafios do mundo do trabalho e do exercício efetivo da cidadania.</p>
+        <p class="text-muted">Visão: Consolidar-se como referência em instituição em ensino público, primando pela excelência na educação profissional e propedêutica</p>
+        <p class="text-muted">Valores: Desde o inicio de suas atividades a ETESP semeou valores imprescindíveis a uma convivência social baseada na ética, nos laços de solidariedade, no compromisso com o outro, no respeito pelo individual e pelo coletivo, na transparência, na equidade, na liberdade de expressão, no estímulo à reflexão , na valorização do ser humano, na valorização dos demais seres vivos , na defesa da sustentabilidade do planeta e na defesa da democracia como um valor fundamental para o desenvolvimento social.</p>
+
+      </div>
+    </section>
+
+<section id="cursos" class="py-5">
+  <div class="container">
+    <h2 class="h4 fw-bold mb-3">Lista completa de cursos</h2>
+
+    <!-- Abas -->
+    <ul class="nav nav-tabs mb-3" id="cursosTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="integrado-tab" data-bs-toggle="tab" data-bs-target="#integrado" type="button" role="tab" aria-controls="integrado" aria-selected="true">
+          Ensino Médio Integrado
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tecnicos-tab" data-bs-toggle="tab" data-bs-target="#tecnicos" type="button" role="tab" aria-controls="tecnicos" aria-selected="false">
+          Cursos Técnicos
+        </button>
+      </li>
+      <li class="nav-item ms-auto">
+        <button class="btn btn-sm btn-outline-secondary" id="verTodosBtn" type="button">Ver técnicos</button>
+      </li>
+    </ul>
+
+    <!-- Conteúdo das abas -->
+    <div class="tab-content" id="cursosTabsContent">
+
+      <!-- Integrado -->
+      <div class="tab-pane fade show active" id="integrado" role="tabpanel" aria-labelledby="integrado-tab">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-int-1">
+              <div class="card-body d-flex">
+                <i class="bi bi-briefcase-fill fs-2 me-3 text-primary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-int-1" class="h6 fw-semibold mb-1">Administração</h3>
+                  <p class="small text-muted mb-0">Ensino Médio Integrado com ênfase em administração.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-int-2">
+              <div class="card-body d-flex">
+                <i class="bi bi-code-slash fs-2 me-3 text-primary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-int-2" class="h6 fw-semibold mb-1">Desenvolvimento de Sistemas</h3>
+                  <p class="small text-muted mb-0">Programação, análise e desenvolvimento de software.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-int-3">
+              <div class="card-body d-flex">
+                <i class="bi bi-tree-fill fs-2 me-3 text-success" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-int-3" class="h6 fw-semibold mb-1">Meio Ambiente</h3>
+                  <p class="small text-muted mb-0">Conservação, gestão ambiental e práticas sustentáveis.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-int-4">
+              <div class="card-body d-flex">
+                <i class="bi bi-egg-fried fs-2 me-3 text-danger" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-int-4" class="h6 fw-semibold mb-1">Nutrição e Dietética</h3>
+                  <p class="small text-muted mb-0">Nutrição, dietas e promoção da saúde.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-int-5">
+              <div class="card-body d-flex align-items-center">
+                <svg class="icon-atom me-3" role="img" aria-label="Ícone de átomo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <g stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(25 32 32)"/>
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(-25 32 32)"/>
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(90 32 32)"/>
+                    <circle cx="32" cy="32" r="3.5" fill="currentColor" stroke="none"/>
+                  </g>
+                </svg>
+                <div>
+                  <h3 id="curso-int-5" class="h6 fw-semibold mb-1">Química</h3>
+                  <p class="small text-muted mb-0">Química aplicada e práticas de laboratório.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Técnicos -->
+      <div class="tab-pane fade" id="tecnicos" role="tabpanel" aria-labelledby="tecnicos-tab">
+        <div class="row g-3">
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-1">
+              <div class="card-body d-flex">
+                <i class="bi bi-droplet-fill fs-2 me-3 text-secondary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-1" class="h6 fw-semibold mb-1">Açúcar e Álcool</h3>
+                  <p class="small text-muted mb-0">Processos produtivos e controle de qualidade na indústria sucroalcooleira.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-2">
+              <div class="card-body d-flex">
+                <i class="bi bi-briefcase-fill fs-2 me-3 text-primary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-2" class="h6 fw-semibold mb-1">Administração</h3>
+                  <p class="small text-muted mb-0">Gestão, finanças e rotinas administrativas.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-3">
+              <div class="card-body d-flex">
+                <i class="bi bi-plug-fill fs-2 me-3 text-info" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-3" class="h6 fw-semibold mb-1">Eletrotécnica</h3>
+                  <p class="small text-muted mb-0">Instalações elétricas, manutenção e sistemas de potência.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-4">
+              <div class="card-body d-flex">
+                <i class="bi bi-hospital-fill fs-2 me-3 text-danger" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-4" class="h6 fw-semibold mb-1">Enfermagem</h3>
+                  <p class="small text-muted mb-0">Cuidados de saúde, procedimentos clínicos e atenção ao paciente.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-5">
+              <div class="card-body d-flex">
+                <i class="bi bi-basket3-fill fs-2 me-3 text-warning" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-5" class="h6 fw-semibold mb-1">Gastronomia</h3>
+                  <p class="small text-muted mb-0">Técnicas culinárias, segurança alimentar e gestão de cozinha.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-6">
+              <div class="card-body d-flex">
+                <i class="bi bi-gear-fill fs-2 me-3 text-secondary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-6" class="h6 fw-semibold mb-1">Mecânica</h3>
+                  <p class="small text-muted mb-0">Manutenção mecânica, usinagem e processos industriais.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-7">
+              <div class="card-body d-flex">
+                <i class="bi bi-egg-fried fs-2 me-3 text-danger" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-7" class="h6 fw-semibold mb-1">Nutrição e Dietética</h3>
+                  <p class="small text-muted mb-0">Nutrição aplicada a serviços de alimentação e saúde.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-8">
+              <div class="card-body d-flex align-items-center">
+                <svg class="icon-atom me-3" role="img" aria-label="Ícone de átomo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <g stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(25 32 32)"/>
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(-25 32 32)"/>
+                    <ellipse cx="32" cy="32" rx="20" ry="8" transform="rotate(90 32 32)"/>
+                    <circle cx="32" cy="32" r="3.5" fill="currentColor" stroke="none"/>
+                  </g>
+                </svg>
+                <div>
+                  <h3 id="curso-tec-8" class="h6 fw-semibold mb-1">Química</h3>
+                  <p class="small text-muted mb-0">Processos químicos, análises e práticas laboratoriais.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-9">
+              <div class="card-body d-flex">
+                <i class="bi bi-people-fill fs-2 me-3 text-primary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-9" class="h6 fw-semibold mb-1">Recursos Humanos</h3>
+                  <p class="small text-muted mb-0">Gestão de pessoas, recrutamento e desenvolvimento organizacional.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-10">
+              <div class="card-body d-flex">
+                <i class="bi bi-shield-lock-fill fs-2 me-3 text-danger" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-10" class="h6 fw-semibold mb-1">Segurança do Trabalho</h3>
+                  <p class="small text-muted mb-0">Prevenção de acidentes, normas e saúde ocupacional.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100" aria-labelledby="curso-tec-11">
+              <div class="card-body d-flex">
+                <i class="bi bi-file-earmark-text-fill fs-2 me-3 text-secondary" aria-hidden="true"></i>
+                <div>
+                  <h3 id="curso-tec-11" class="h6 fw-semibold mb-1">Serviços Jurídicos</h3>
+                  <p class="small text-muted mb-0">Atendimento jurídico, rotinas cartoriais e procedimentos legais.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+        <!-- Galeria -->
+   <section id="galeria" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="h4 fw-bold mb-3">Galeria de fotos</h2>
+
+    <div id="galleryCarousel" class="carousel slide mb-3" data-bs-ride="carousel" aria-label="Carrossel de fotos da galeria">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+
+      <div class="carousel-inner rounded">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <picture>
+            <source type="alunos em atividade da escola.jpg" srcset="img/alunos em atividade da escola.jpg 400w, img/alunos em atividade da escola.jpg 800w" sizes="100vw">
+            <img src="img/alunos em atividade da escola.jpg" alt="Alunos em uma orquestra na quadra da escola" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo1-large.jpg" />
+          </picture>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <picture>
+            <source type="alunos em atividade em sala.jpg" srcset="img/alunos em atividade em sala.jpg 400w, img/alunos em atividade em sala.jpg 800w" sizes="100vw">
+            <img src="img/alunos em atividade em sala.jpg" alt="Alunos em aula pratica na sala" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo2-large.jpg" />
+          </picture>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <picture>
+            <source type="img/alunos e professores.jpg" srcset="img/alunos e professores.jpg 400w, img/alunos e professores.jpg 800w" sizes="100vw">
+            <img src="img/alunos e professores.jpg" alt="alunos e professores na quadra" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo3-large.jpg" />
+          </picture>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <picture>
+            <source type="img/foto da escola.jpg" srcset="img/foto da escola.jpg 400w, img/foto da escola.jpg 800w" sizes="100vw">
+            <img src="img/foto da escola.jpg" alt="Foto da escola" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo4-large.jpg" />
+          </picture>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+          <picture>
+            <source type="img/palestra.jpg" srcset="img/palestra.jpg 400w, img/palestra.jpg 800w" sizes="100vw">
+            <img src="img/palestra.jpg" alt="Palestra" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo5-large.jpg" />
+          </picture>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+          <picture>
+            <source type="image/webp" srcset="img/aula fora da escola.jpg 400w, img/aula fora da escola.jpg 800w" sizes="100vw">
+            <img src="img/aula fora da escola.jpg" alt="Alunos em atividade fora da escola" class="d-block w-100 carousel-img" loading="lazy" data-full="assets/photo6-large.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev" aria-label="Slide anterior">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next" aria-label="Próximo slide">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+   
+  </div>
+
+  
+  <div class="modal fade" id="lightbox" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          <img src="" alt="" id="lightbox-img" class="w-100 rounded" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Instagram -->
+   <section id="instagram" class="py-5">
+  <div class="container">
+    <h2 class="h4 fw-bold mb-3">Instagram</h2>
+    <p class="text-muted">Feed oficial <strong>@etecbarretosoficial</strong></p>
+
+    <div id="instagram-embed" class="row">
+      <div class="col-12">
+        <div class="instagram-placeholder p-4 rounded bg-white border text-center text-muted">
+          Conteúdo do Instagram carregado sob demanda
+          <div class="mt-3">
+            <a id="instagram-open-profile" class="btn btn-outline-primary btn-sm" href="https://www.instagram.com/etecbarretosoficial/" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil no Instagram">Abrir perfil @etecbarretosoficial</a>
+          </div>
+        </div>
+
+        <div id="instagram-grid-wrapper" class="mt-3" aria-live="polite" aria-atomic="true" hidden>
+          <div id="instagram-grid" class="instagram-grid" role="list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- Acessos Rapidos -->
+ <section id="acesso-rapido" class="py-5">
+  <div class="container">
+    <h2 class="h4 fw-bold mb-3">Acessos rápidos</h2>
+
+    <div class="row g-3 quick-access" role="list">
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="https://nsa.cps.sp.gov.br" class="card card-access h-100 text-decoration-none" aria-label="Sistema de reservas" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-calendar-check access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">Reservas</h3>
+            <small class="text-muted">Sistema de reservas</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="https://nsa.cps.sp.gov.br" class="card card-access h-100 text-decoration-none" aria-label="GLPI" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-tools access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">GLPI</h3>
+            <small class="text-muted">Chamados e inventário</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="https://nsa.cps.sp.gov.br" class="card card-access h-100 text-decoration-none" aria-label="TeamPass" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-key access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">TeamPass</h3>
+            <small class="text-muted">Gestão de senhas</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="..." class="card card-access h-100 text-decoration-none" aria-label="IPAM" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-globe access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">IPAM</h3>
+            <small class="text-muted">Gerenciamento de IPs</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="..." class="card card-access h-100 text-decoration-none" aria-label="Cadastro de internet" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-wifi access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">Cadastro Internet</h3>
+            <small class="text-muted">Solicitar acesso</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="https://teams.microsoft.com" class="card card-access h-100 text-decoration-none" aria-label="Microsoft Teams" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-people access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">Microsoft Teams</h3>
+            <small class="text-muted">Reuniões e colaboração</small>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3" role="listitem">
+        <a href="https://nsa.cps.sp.gov.br" class="card card-access h-100 text-decoration-none" aria-label="E-mail institucional" target="_blank" rel="noopener noreferrer">
+          <div class="card-body d-flex flex-column align-items-center justify-content-center text-center">
+            <i class="bi bi-envelope access-icon" aria-hidden="true"></i>
+            <h3 class="h6 mt-2 mb-0">E-mail</h3>
+            <small class="text-muted">E-mail institucional</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Contato -->
+<section id="contato" class="py-5 bg-light" aria-labelledby="contato-title">
+  <div class="container">
+    <h2 id="contato-title" class="h4 fw-bold mb-3">Contatos da escola</h2>
+
+    <div class="row g-3 align-items-start">
+      <div class="col-12 col-md-4">
+        <h3 class="h6 fw-semibold">Endereço</h3>
+        <p class="small text-muted mb-0">Avenida 37, 646 – Barone - Barretos - SP – CEP 14780-390</p>
+
+        <div class="mt-3 ratio ratio-16x9" aria-hidden="false">
+          <iframe
+            title="Mapa do endereço da ETEC Coronel Raphael Brandão"
+            src="https://www.google.com/maps?q=Avenida+37,+646+Barone+Barretos+SP&hl=pt-BR&z=15&output=embed"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h3 class="h6 fw-semibold">Expediente</h3>
+        <p class="small text-muted mb-0">
+          <strong>Segunda a Sexta:</strong> 8h as 18h<br />
+          <strong>Sábado:</strong> Fechado<br />
+          <strong>Domingo:</strong> Fechado
+        </p>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h3 class="h6 fw-semibold">Contato</h3>
+        <p class="small text-muted mb-0">
+          <a href="mailto:e108dir@cps.sp.gov.br" class="text-muted">e108dir@cps.sp.gov.br</a><br />
+          <a href="tel:+551733231099" class="text-muted">+55 (17) 3323-1099</a> <br />
+          <a href="tel:+551733222341" class="text-muted">+55 (17) 3322-2341</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+<!-- Footer -->
+<footer class="footer-custom mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="img/Logo etec.png" alt="ETEC Barretos" class="logo-small me-2" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="img/Centro-Paula-Souza-CPS.webp" alt="Centro Paula Souza" class="logo-small me-2" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="img/governo-do-estado-sao-paulo-logo.webp" alt="Governo do Estado de São Paulo" class="logo-small" />
+          </a>
+        </div>
+
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <div>
+            <a class="text-muted me-2" href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqazk5R2ZSNFEwS2ZjSjJkSl9YS3Q5QnpaT3dEUXxBQ3Jtc0tuMl9fWXpBekpRWVI4S2NJTmdZaXBPWXpicnZkd0J4MTNlUG5YQzNYVnhhU01TSGxUem4yelpyUHZMVmZmTW1tQWxKN0RLa1QwLVByeFAzRGhxNHZydUJwc212WjVfczc5bENtckpUMy14eUJCY1FyUQ&q=https%3A%2F%2Fwww.facebook.com%2FEtec-Cel-Raphael-Brand%25C3%25A3o-492211027492745"  target="_blank" aria-label="Facebook"><i class="bi bi-facebook"  ></i>  </a>
+            <a class="text-muted me-2" href="https://www.instagram.com/etecbarretosoficial/"  target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a class="text-muted" href="https://www.youtube.com/@eteccel.raphaelbrandao2366"  target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+          <small class="d-block text-muted mt-2">Créditos do CPD</small>
+        </div>
+
+        <div class="col-md-4 text-md-end">
+          <div class="text-muted small">Página desenvolvida por Antenor – PW1 – 2025</div>
+          <div class="text-white small mt-1">TI ETEC 108</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>
